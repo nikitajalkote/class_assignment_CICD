@@ -18,7 +18,7 @@ def get_new_commits(username, repository, token, since):
 def main():
     username = 'nikitajalkote'
     repository = 'class_assignment_CICD'
-    token = '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'
+    token = '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'
     
     # Set the datetime for the last check (e.g., one day ago)
     since_datetime = (datetime.now() - timedelta(hours=240)).isoformat()
